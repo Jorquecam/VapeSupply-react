@@ -9,11 +9,8 @@ export default class Header extends React.Component{
          <Navbar inverse collapseOnSelect>
          <Navbar.Header>
            <Navbar.Brand>
-           <span class="logo">
-                <Image src="..\img\logo.jpg" width="5%" padding=" 7px 14px" rounded />
-           </span>
-           {/* */}
-             <a href="#home">VS Loyalty Points</a>
+                {/*<Image src="..\img\logo.jpg" width="5%" padding=" 7px 14px" rounded />*/}
+                <a href="#home">VS Loyalty Points</a>
            </Navbar.Brand>
          </Navbar.Header>
          <Nav>
