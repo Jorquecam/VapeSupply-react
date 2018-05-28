@@ -12,11 +12,11 @@ class VSLoyaltyPoints extends React.Component {
             const clientes = localStorage.getItem('clientes');
             const clientesArray = JSON.parse(clientes);
         } catch(e){
-           
-    }
-  
-    
+
+        }      
+    }   
 }
+
 const jsx = (
     <div>
         <Header />
