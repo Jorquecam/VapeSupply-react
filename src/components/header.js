@@ -8,13 +8,13 @@ export default class Header extends React.Component{
          return (
          <Navbar inverse collapseOnSelect>
          <Navbar.Header>
-           <Navbar.Brand>
-                {/*<Image src="..\img\logo.jpg" width="5%" padding=" 7px 14px" rounded />*/}
-                <a href="#home">VS Loyalty Points</a>
-           </Navbar.Brand>
+            
+            <Image src="..\img\logo.jpg" width="10%" padding=" 7px 14px" circle />
+       
          </Navbar.Header>
          <Nav>
-           <NavItem eventKey={1}>
+         <h1>Vape Supply Loyalty Points</h1>
+           {/* <NavItem eventKey={1}>
              Link
            </NavItem>
            <NavItem eventKey={2}>
@@ -26,7 +26,7 @@ export default class Header extends React.Component{
              <MenuItem eventKey={3.3}>Something else here</MenuItem>
              <MenuItem divider />
              <MenuItem eventKey={3.4}>Separated link</MenuItem>
-           </NavDropdown>
+           </NavDropdown> */}
          </Nav>
        </Navbar>);
      }
