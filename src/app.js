@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import Header from './components/header';
+import List from './components/list';
 
 class VSLoyaltyPoints extends React.Component {
     constructor(){
@@ -9,8 +10,9 @@ class VSLoyaltyPoints extends React.Component {
 
     componentDidMount(){
         try{
-            const clientes = localStorage.getItem('clientes');
-            const clientesArray = JSON.parse(clientes);
+            // const clients = localStorage.getItem('clients');
+            // const clientsArray = JSON.parse(clients);
+            const clientsArray = [ "Uno", "Dos", "Tres"];
         } catch(e){
 
         }      
@@ -20,6 +22,7 @@ class VSLoyaltyPoints extends React.Component {
 const jsx = (
     <div>
         <Header />
+        <List clientsArray= {clientsArray}/>
     </div>
 );
 
