@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Client from 'client';
+import Client from './client';
 import {ListGroup} from 'react-bootstrap';
 
 export default class List extends React.Component {
