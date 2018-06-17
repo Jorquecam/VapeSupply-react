@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import Header from './components/header';
 import {Grid, Row, Col} from 'react-bootstrap';
 import List from './components/list';
-const clienteArray = [ "Uno", "Dos", "Tres"];
+const clienteArray =[  {name: "Jordan Quesada", cardNumber: 1001, points: 15}, 
+                       {name: "Jorge Castro", cardNumber: 1002, points: 10}, 
+                       {name: "Arturo Trollo", cardNumber: 1003, points: 1}
+                    ];
 class VSLoyaltyPoints extends React.Component {
     constructor(){
         super();
