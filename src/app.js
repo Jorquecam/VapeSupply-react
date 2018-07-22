@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Header from './components/header';
 import {Grid, Row, Col} from 'react-bootstrap';
 import List from './components/list';
+import ClientDetail from "./components/clientDetail";
 const clienteArray =[  {name: "Jordan Quesada", cardNumber: 1001, points: 15}, 
                        {name: "Jorge Castro", cardNumber: 1002, points: 10}, 
                        {name: "Arturo Trollo", cardNumber: 1003, points: 1}
@@ -30,6 +31,9 @@ const jsx = (
             <Row className="show-grid">
                 <Col xs={6} md={4}>
                     <List clientsArray= {clienteArray}/>
+                </Col>
+                <Col xs={6} md={4}>
+                <ClientDetail/>
                 </Col>
             </Row>
         </Grid>
